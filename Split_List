@@ -1,0 +1,31 @@
+#与えられた配列を2つの配列に分割しなければなりません．もし配列の要素数が奇数であれば、最初の配列はより多くの要素を持つべきです。もし要素がなければ、2つの空の配列が返されます。
+
+
+def split_list(items: list) -> list:
+    # your code here
+    list1 = []
+    list2 = []
+    lists = [list1, list2]
+    count = 0
+    
+    for i in items:
+        count += 1
+        if (len(items) + 1) - count >= count:
+            list1.append(i)
+        else:
+            list2.append(i)
+    return lists
+
+    #for文で
+
+if __name__ == '__main__':
+    print("Example:")
+    print(split_list([1, 2, 3, 4, 5, 6]))
+
+    # These "asserts" are used for self-checking and not for an auto-testing
+    assert split_list([1, 2, 3, 4, 5, 6]) == [[1, 2, 3], [4, 5, 6]]
+    assert split_list([1, 2, 3]) == [[1, 2], [3]]
+    assert split_list([1, 2, 3, 4, 5]) == [[1, 2, 3], [4, 5]]
+    assert split_list([1]) == [[1], []]
+    assert split_list([]) == [[], []]
+    print("Coding complete? Click 'Check' to earn cool rewards!")
