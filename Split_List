@@ -16,7 +16,8 @@ def split_list(items: list) -> list:
             list2.append(i)
     return lists
 
-    #for文で
+    #for文で処理してみた。
+    #切り捨て除算とスライスの位置の把握ができると、もっと簡潔になりそうだった。
 
 if __name__ == '__main__':
     print("Example:")
