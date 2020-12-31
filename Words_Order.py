@@ -58,3 +58,7 @@ if __name__ == '__main__':
     assert words_order('hi world im here', ['wo', 'rld']) == False
     assert words_order('', ['world', 'here']) == False
     print("Coding complete? Click 'Check' to earn cool rewards!")
+
+#所感
+    #要件と設計をしっかり書き下すことで処理の順序に見通しがつき、コーディングが成功した。
+    #構文の基礎をもっと理解すれば、行数を半分ほどに減らせそうだった。
