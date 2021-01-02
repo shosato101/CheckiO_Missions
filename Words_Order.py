@@ -18,9 +18,7 @@ def words_order(text: str, words: list) -> bool:
     check = []
     
     for i in set(words):
-        if i in text.split():
-            continue
-        else:
+        if i not in text.split():
             return False
     
     if len(set(words)) == len(words):        

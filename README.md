@@ -3,7 +3,7 @@
 [CheckiO](https://checkio.org/)さんのPythonコースの学習結果について、  
 <br>
 * 課題の要件
-* 設計思想
+* 設計
 * 実装
 * 所感
 <br>
