@@ -8,18 +8,16 @@ def get_median(data):
     Parameters
     ----------
     data : list
-        引数のデータを整列したリスト。
-    median_raw : int, float
-        戻り値に渡す前の中央値。
+        対象となるデータのリスト。
 
     returns
     -------
     median : str
-        引数のデータの中央値。
+        対象のデータの中央値。
     """
 
-    
-    data.sort()  #引数を前処理する。
+    #引数を前処理する。
+    data.sort()  
 
     
     if len(data) % 2 == 0:  #データの数が偶数個の場合
