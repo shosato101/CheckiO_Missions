@@ -14,11 +14,11 @@
 また、old_solutionsには、
 >```:Old_solutions
 >[CheckiO](https://checkio.org/)さんのPythonコースの学習結果について、  
-><br>
+
 >* 設計
 >* 実装
 >* 所感
-><br>
+
 >上記の形式に編集してアーカイブしました。
 >```
 という観点で初期に書いていたものを残してあります。
