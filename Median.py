@@ -13,7 +13,7 @@ def get_median(data):
     returns
     -------
     median : float
-        対象のデータの中央値。
+        対象のデータの中央値(小数点第二位まで）。
     """
 
     #引数を前処理する。
