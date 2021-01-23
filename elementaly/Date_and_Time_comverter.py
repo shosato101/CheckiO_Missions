@@ -1,10 +1,10 @@
-#要件
-    #数値で表される日付を、カレンダー表記にする。
-#設計
-    #数値での日付表記は０埋めされていて桁数が変わらないため、日時等に相当する値はスライスで指定する。
+# 要件
+    # 数値で表される日付を、カレンダー表記にする。
+# 設計
+    # 数値での日付表記は０埋めされていて桁数が変わらないため、日時等に相当する値はスライスで指定する。
 
 def date_time(time: str) -> str:
-    #replace this for solution
+    # replace this for solution
     month_list = [0, "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"] 
     day = str(int(time[0:2]))
     month = month_list[int(time[3:5])]

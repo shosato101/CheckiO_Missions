@@ -1,18 +1,17 @@
-#要件
-    #与えられたitemsリストをborderの値までの部分で切り取りたい。
-    #borderの値が見つからない場合、リストはそのまま。
-    #リストが空の場合も、リストはそのまま。
-#設計
-    #for文でitemsリストとborderの値を照合する。
-    #borderがヒットしなければ、そのままselectionのリストに加える。
-    #borderがヒットした場合、borderもselectionのリストに加えて処理を終了する。
+# 要件
+    # 与えられたitemsリストをborderの値までの部分で切り取りたい。
+    # borderの値が見つからない場合、リストはそのまま。
+    # リストが空の場合も、リストはそのまま。
+# 設計
+    # for文でitemsリストとborderの値を照合する。
+    # borderがヒットしなければ、そのままselectionのリストに加える。
+    # borderがヒットした場合、borderもselectionのリストに加えて処理を終了する。
 from typing import Iterable
 
 
 def remove_all_after(items: list, border: int) -> Iterable:
-    # your code here
     selection = []
-    
+
     for i in items:
         if i != border:
             selection.append(i)
