@@ -26,6 +26,6 @@ if __name__ == '__main__':
     assert date_time("20.11.1990 03:55") == "20 November 1990 year 3 hours 55 minutes", "Somebody was born"
     print("Coding complete? Click 'Check' to earn cool rewards!")
 
-#所感
-    #datetime関数を使いたかったが、まだよくわからなかった。
-    #力技の記述だったが、datetime関数を使わないコードの中では綺麗な方だった。
+# 所感
+    # datetime関数を使いたかったが、まだよくわからなかった。
+    # 力技の記述だったが、datetime関数を使わないコードの中では綺麗な方だった。
